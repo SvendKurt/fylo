@@ -1,0 +1,303 @@
+@media screen and (min-width:600px) {
+  body {
+    width: 1440px;
+  }
+
+  .main-header {
+    height: 49px;
+    padding-top: 65px;
+    margin: 0 80px 86px 80px;
+  }
+
+  .header-logo {
+    height: 49px;
+  }
+
+  .main-nav {
+    list-style: none;
+    top: 63px;
+    height: 19px;
+    width: 271px;
+    margin: 15px 0 15px 0;
+  }
+
+  .main-nav__item {
+    font-size: 16px;
+  }
+
+  .allyourfiles {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 474px;
+    margin-bottom: 164px;
+  }
+
+  .allyourfiles__textbox {
+    flex: 0 0 639px;
+    flex-direction: column;
+    order: 1;
+    height: 370px;
+    margin: 77px 0 2px 80px;
+  }
+
+  .allyourfiles_h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  .allyourfiles__textbox-txt {
+    font-size: 17px;
+    line-height: 1.412;
+    letter-spacing: 0.53px;
+    text-align: left;
+    margin: 15px 0 25px 0;
+    padding-right: 30px;
+  }
+
+  .allyourfiles_cta {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: flex-start;
+  }
+
+  .allyourfiles__input {
+    letter-spacing: 1px;
+    height: 45px;
+    width: 320px;
+  }
+
+  .allyourfiles__btn {
+    height: 45px;
+    width: 200px;
+    margin-left: 16px;
+  }
+
+  .allyourfiles__img {
+    flex: 0 0 600px;
+    height: 474px;
+    padding-right: 80px;
+  }
+
+  .curve_img {
+    width: 1440px;
+  }
+
+  .stayproductive {
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 670px;
+    margin-bottom: 0;
+  }
+
+  .stayproductive__txtbox {
+    flex: 0 0 700px;
+    order: 1;
+    margin: 0 0 0 80px;
+  }
+
+  .stayproductive__h2 {
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    /*Sketch: 0*/
+    margin: 58px 0 30px 0;
+  }
+
+  .stayproductive__txt {
+    font-size: 16px;
+    margin: 0 170px 16px 0;
+  }
+
+  .stayproductive__txt2 {
+    font-size: 16px;
+    margin: 0 170px 14px 0;
+  }
+
+  .stayproductive__link {
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+  .stayproductive__arrow {
+    vertical-align: middle;
+    height: 18px;
+    width: 18px;
+    /* martini-top:a-ok(y); */
+  }
+
+  .stayproductive__underline {
+    width: 166px;
+    height: 1px;
+    margin: 4px 0 44px 0;
+  }
+
+  .stayproductive__card {
+    border-radius: 6px;
+    font-size: 13px;
+    width: 356px;
+    height: 215px;
+    margin: 0;
+  }
+
+  .stayproductive__quotesign {
+    font-size: 45px;
+    margin: 0;
+    top: 11px;
+    margin: 0 0 0 33px;
+  }
+
+  .stayproductive__card-txt {
+    padding: 50px 34px 0 33px;
+    margin-bottom: 13px;
+  }
+
+  .stayproductive__card-img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-left: 33px;
+  }
+
+  .stayproductive__card-signaturebox-textbox {
+    flex: 0 0 300px;
+  }
+
+  .stayproductive__card-name {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+    margin: 0 0 0 8px;
+  }
+
+  .stayproductive__card-title {
+    font-size: 8px;
+    letter-spacing: 0.55px;
+    line-height: 1.875;
+  }
+
+  .stayproductive__img {
+    max-width: 100%;
+    height: 409px;
+    margin: 88px 80px 0 38px;
+  }
+
+  .cta {
+    flex-direction: row;
+    padding-top: 0;
+    height: 322px;
+  }
+
+  .cta__textbox {
+    flex: 0 0 720px;
+  }
+
+  .cta__signup {
+    flex: 0 0 720px;
+  }
+
+  .cta-txt {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0 120px 0 80px;
+    text-align: left;
+  }
+
+  .cta-headline {
+    font-size: 32px;
+    margin: 100px 0 16px 80px;
+  }
+
+  .cta__signup-input {
+    font-size: 12px;
+    border-radius: 3px;
+    border-style: solid;
+    height: 48px;
+    width: 480px;
+    padding: 0 0 0 22px;
+    margin: 112px 120px 16px 120px;
+  }
+
+  .cta__signup-btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    height: 48px;
+    width: 200px;
+    margin: 0 0 0 120px;
+  }
+
+  .footer {
+    color: #ffffff;
+    height: 391px;
+    padding: 105.61px 0 0 75px;
+  }
+
+  .footer-logo {
+    /* height: 51.22px; */
+    margin: 2px 6px 9px 6px;
+  }
+
+  .footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .footer__contact {
+    flex: 0 0 441px;
+    padding: 0;
+  }
+
+  .footer__left-nav {
+    flex: 0 0 269px;
+  }
+
+  .footer__right-nav {
+    flex: 0 0 274px;
+  }
+
+  .footer__social-icons {
+    flex: 0 0 150px;
+    padding-left: 0;
+    padding-top: 16px;
+  }
+
+  .footer__contact--txt {}
+
+  .footer__phone-icon {
+    margin: 0 19px 0 0;
+  }
+
+  .footer__email-icon {
+    margin: 0 17px 0 0;
+    vertical-align: middle;
+  }
+
+  .footer-nav__item {
+    display: block;
+    height: 22px;
+    margin: 0 0 16px 8px;
+  }
+
+  .social-icon {
+    font-size: 14px;
+    padding-top: 8px;
+    height: 31px;
+    width: 31.22px;
+    margin: 3px 8.49px 0 0;
+  }
+
+  .fa-instagram {
+    font-size: 17px;
+    padding-top: 6px;
+  }
+
+  .attribution {
+    color: #ffffff;
+    margin: 16px 0 0;
+  }
+}/*END @media screen and (min-width:600px)*/
