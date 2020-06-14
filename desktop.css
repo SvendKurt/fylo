@@ -23,6 +23,7 @@
 
   .main-nav__item {
     font-size: 16px;
+    letter-spacing:0px;
   }
 
   .allyourfiles {
@@ -34,7 +35,7 @@
   }
 
   .allyourfiles__textbox {
-    flex: 0 0 639px;
+    flex: 0 0 640px;
     flex-direction: column;
     order: 1;
     height: 370px;
@@ -55,7 +56,7 @@
     letter-spacing: 0.53px;
     text-align: left;
     margin: 15px 0 25px 0;
-    padding-right: 30px;
+    padding-right: 40px;
   }
 
   .allyourfiles_cta {
@@ -72,6 +73,8 @@
   }
 
   .allyourfiles__btn {
+    font-weight: 700;
+    letter-spacing: 0.5; /*sketch*/
     height: 45px;
     width: 200px;
     margin-left: 16px;
@@ -115,7 +118,7 @@
 
   .stayproductive__txt2 {
     font-size: 16px;
-    margin: 0 170px 14px 0;
+    margin: 0 170px 15px 0;
   }
 
   .stayproductive__link {
@@ -133,7 +136,7 @@
   .stayproductive__underline {
     width: 166px;
     height: 1px;
-    margin: 4px 0 44px 0;
+    margin: 2px 0 44px 0;
   }
 
   .stayproductive__card {
@@ -145,7 +148,7 @@
   }
 
   .stayproductive__quotesign {
-    font-size: 45px;
+    font-size: 48px;
     margin: 0;
     top: 11px;
     margin: 0 0 0 33px;
@@ -153,7 +156,7 @@
 
   .stayproductive__card-txt {
     padding: 50px 34px 0 33px;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
   }
 
   .stayproductive__card-img {
@@ -177,13 +180,13 @@
   .stayproductive__card-title {
     font-size: 8px;
     letter-spacing: 0.55px;
-    line-height: 1.875;
+    line-height: 1.3;
   }
 
   .stayproductive__img {
     max-width: 100%;
     height: 409px;
-    margin: 88px 80px 0 38px;
+    margin: 89px 80px 0 38px;
   }
 
   .cta {
@@ -203,7 +206,7 @@
   .cta-txt {
     font-size: 16px;
     letter-spacing: 0.5px;
-    margin: 0 120px 0 80px;
+    margin: 0 100px 0 80px;
     text-align: left;
   }
 
@@ -223,7 +226,6 @@
   }
 
   .cta__signup-btn {
-    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     height: 48px;
     width: 200px;
@@ -233,7 +235,7 @@
   .footer {
     color: #ffffff;
     height: 391px;
-    padding: 105.61px 0 0 75px;
+    padding: 105.61px 0 0 77px;
   }
 
   .footer-logo {
@@ -245,6 +247,8 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    width:1245px;
+    margin-left:6px;
   }
 
   .footer__contact {
@@ -257,13 +261,13 @@
   }
 
   .footer__right-nav {
-    flex: 0 0 274px;
+    flex: 0 0 266px;
   }
 
   .footer__social-icons {
     flex: 0 0 150px;
     padding-left: 0;
-    padding-top: 16px;
+    padding-top: 15px;
   }
 
   .footer__contact--txt {}
@@ -292,7 +296,7 @@
   }
 
   .fa-instagram {
-    font-size: 17px;
+    font-size: 16px;
     padding-top: 6px;
   }
 

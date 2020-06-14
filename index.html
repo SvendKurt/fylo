@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+
   <script src="https://kit.fontawesome.com/38c095ecfa.js" crossorigin="anonymous"></script>
 </head>
 
@@ -32,28 +33,26 @@
         <h1 class="allyourfiles_h1">All your files in one secure location, accessible anywhere.</h1>
         <p class="allyourfiles__textbox-txt"> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
         <div class="allyourfiles_cta">
-          <input class="allyourfiles__input  " type="text" name="enter your email" value="Enter your email... ">
+          <input class="allyourfiles__input" type="text" title="signup" aria-label="email input" name="article-signup" value="Enter your email... ">
           <button class="allyourfiles__btn" type="button" name="button">Get Started</button>
         </div>
-
       </div>
       <img class="allyourfiles__img" src="images/illustration-1.svg" alt="Two carton characters in business attire putting lots of large documents into giant folder">
     </article>
 
     <picture>
-      <source class="curve_img" media="(max-width: 600px)" srcset="images\bg-curve-mobile.svg 375w">
-      <source class="curve_img" media="(min-width: 601px)" srcset="images\bg-curve-desktop.svg 1440w">
-      <img class="curve_img" src="images\bg-curve-desktop.svg 1440w" alt="">
+      <source class="curve_img" media="(max-width: 600px)" srcset="images/bg-curve-mobile.svg 375w">
+      <source class="curve_img" media="(min-width: 601px)" srcset="images/bg-curve-desktop.svg 1440w">
+      <img class="curve_img" src="images/bg-curve-desktop.svg 1440w" alt="">
     </picture>
 
-    <article class="stayproductive">
-      <!-- Something like "section2" better classname? -->
+    <article class="stayproductive"> <!-- Something like "section2" better classname? -->
       <div class="stayproductive__txtbox">
         <h2 class="stayproductive__h2">Stay productive, wherever you are</h1>
           <p class="stayproductive__txt">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
           <p class="stayproductive__txt2">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
           <a class="stayproductive__link" href="#">See how Fylo works</a>
-          <img class="stayproductive__arrow" src="images\icon-arrow.svg" alt="Teeny wheeny greeny arrow">
+          <img class="stayproductive__arrow" src="images/icon-arrow.svg" alt="Teeny wheeny greeny arrow">
           <div class="stayproductive__underline"></div>
           <div class="stayproductive__card">
             <p class="stayproductive__quotesign">“</p>
@@ -67,7 +66,7 @@
             </div>
           </div>
       </div>
-      <img class="stayproductive__img" src="images\illustration-2.svg" alt="Three carton characters in business attire holding up large speech bubbles">
+      <img class="stayproductive__img" src="images/illustration-2.svg" alt="Three carton characters in business attire holding up large speech bubbles">
     </article>
 
     <section class="cta">
@@ -76,7 +75,7 @@
         <p class="cta-txt">It only takes a minute to sign up and out free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
       </div>
       <div class="cta__signup">
-        <input class="cta__signup-input" type="text" name="" value="email@example.com">
+        <input class="cta__signup-input" title="signup" aria-label="email input" type="text" name="cta-signup" value="email@example.com">
         <button class="cta__signup-btn" type="button" name="button">Get Started For Free</button>
       </div>
     </section>
@@ -97,7 +96,6 @@
           <li class="footer-nav__item">Blog</li>
         </ul>
       </nav>
-
       <nav class="footer__right-nav">
         <ul class="footer__ul">
           <li class="footer-nav__item">Contact Us</li>
@@ -105,7 +103,6 @@
           <li class="footer-nav__item">Privacy</li>
         </ul>
       </nav>
-
       <div class="footer__social-icons">
         <i class="fab fa-facebook-f social-icon"></i>
         <i class="fab fa-twitter social-icon"></i>
@@ -114,9 +111,6 @@
     </div>
     <p class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> Coded by <a href="#">Your Name Here</a>
     </p>
-
   </footer>
-
 </body>
-
 </html>
